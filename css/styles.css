@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+*{
+    font-family: Rubik;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+}
+p{
+    color:grey;
+}
+/*nav bar section starts*/
+.header{
+    position: fixed;
+    padding: 30px 0;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 100;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.header .max-width {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bannerDivTop{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1410px;
+}
+.btnApply{
+    border: #6666ff 2px solid;
+    padding: 7px 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+.btnApply:hover{
+    cursor: pointer;
+}
+.nav a{
+    margin-left: 50px;
+}
+.btn-menu {
+    display: none;
+    background: transparent;
+    border: none;
+}
+/* nav bar section ends  */
+/* banner section starts */
+#bannerSec {
+    display: flex;
+    background-image: url('../images/banner.PNG');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 100px;
+}
+#bannerSec .max-width {
+    width: 100%;
+    display: flex;
+}
+#bannerSec .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bannerImg{
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+#bannerH1{
+    font-size: 50px;
+}
+#spanH1{
+    color: #6666ff;
+}
+.bannerPara{
+    line-height: 27px;
+    max-width: 484px;
+}
+.btnAppOn{
+    background-color: #6666ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 30px;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+.btnAppOn:hover{
+    cursor: pointer;
+}
+.btnPara{
+    padding-left: 20px;
+    width: 17px;
+    height: 15px;
+    color: white; 
+}
+.thirdAnchor{
+    color: #6666ff;
+}
+#bannerDivImg{
+    margin-top: 53px;
+    padding-bottom: 60px;
+}
+.bannerIconDiv{
+    width: 22px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+/* banner section Ends */
+/* Second section starts */
+.secondSec{
+    background-color: #f5f6f7 ;
+    padding: 50px 0;
+    text-align: center;
+}
+#featureUni{
+    color: grey;
+    font-size: 1.4em;
+}
+#secondSecDiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+}
+.secondSecImg{
+    width: 220px;
+    position: relative;
+}
+.lSSlideOuter .lSPager.lSpg>li a {
+    background-color: lightgrey;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.lSSlideOuter .lSPager.lSpg>li:hover a,
+.lSSlideOuter .lSPager.lSpg>li.active a {
+    height: 12px;
+    width: 12px;
+}
+.lSAction>.lSPrev,
+.lSAction>.lSNext {
+    display: none;
+}
+/* Second section Ends */
+/* Third section Starts */
+.thirdSec{
+    text-align: center;
+    padding: 50px 0;
+}
+.thirdDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.thirdDivOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thirdSubDivOne{
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px lightgrey;
+    width: calc(27% - 20px);
+    margin: 0px 27px;
+}
+.thirdSubDiv{
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px lightgrey;
+    width: calc(27% - 20px);
+}
+.thirdPara{
+    padding-top: 25px;
+    line-height: 27px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.thirdImg{
+    height: 60px;
+    width: 60px;
+}
+/* Third section Ends */
+/* Fourth section Starts */
+.four{
+    padding: 0px;
+    background-color: white;
+    width: calc(32% - 20px);
+}
+.fourthImg{
+    border-radius:10px 10px 0 0;
+    overflow: hidden;
+    width: 100%;
+}
+.fourthPara{
+    padding-left: 20px;
+}
+.fourthHead{
+    padding: 0 20px 20px 20px;
+}
+.fourthCalender{
+    width: 12px;
+    height: 12px;
+}
+/* fourth section ends */
+/* fifth section starts */
+.five{
+    justify-content: space-around;
+}
+.lightSlider {
+    transition: none;
+}
+.fifth{
+    width: 520px;
+    margin: 10px 0px 10px 1px;
+    padding: 24px;
+}
+.lslide{
+    margin-right:0 !important;
+    
+}
+.fifthDivHead{
+    margin-top: -55px;
+    margin-left: 90px;
+}
+.upBtn{
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    color: #7c86ff;
+    font-family: 'Rubik';
+}
+.fifthSub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.fifthPara{
+    margin-top: 30px;
+    line-height: 1.7em;
+}
+/* fifth section ends */
+/* sixth section Starts */
+.six1{
+    box-shadow: none;
+    width: 363px;
+    margin-right:40px;
+    padding:0;
+}
+.six{
+    border-radius: 20px;
+    width: 400px;
+    margin-right: 40px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+.smallFont{
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+.sixthDivHead{
+    margin-top: -75px;
+    margin-left: 80px;
+}
+/* sixth section ends */
+/* seventh section ends */
+.seventhPara{
+    line-height: 1.7em;
+}
+.dimOpacity{
+    color: grey;
+    margin-top: -10px;
+}
+/* seventh section ends */
+/* Eight section Starts */
+.eight{
+    display: flex;
+    background-color: #f5f6f7;
+    justify-content: space-between;
+    align-items: center;
+}
+section>h1{
+    font-size: 30px;
+}
+.ei{
+    margin: 20px 0px;
+}
+/* Eight section Ends */
+/* footer section starts */
+.footSec{
+    background-color: #727cff;
+}
+.foot{
+    background-color: #727cff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footOne{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 1.7em;
+}
+.footPara{
+    color: white;
+    padding-left: 4px;
+}
+.footDiv a{
+    color: white;
+    line-height: 2.5em;
+}
+.footLast{
+    margin-top: 120px;
+}
+.icn{
+    padding-left: 25px;
+    color: white;
+}
+/* footer section ends */
+
